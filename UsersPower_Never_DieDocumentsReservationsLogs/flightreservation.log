@@ -1,0 +1,39 @@
+2020-10-28 19:37:54 - Starting FlightReservationApplication on DESKTOP-N9RDC04 with PID 7648 (C:\Users\Power_Never_Die\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\FlightReservation\target\classes started by Power_Never_Die in C:\Users\Power_Never_Die\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\FlightReservation)
+2020-10-28 19:37:54 - No active profile set, falling back to default profiles: default
+2020-10-28 19:37:55 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-28 19:37:55 - Finished Spring Data repository scanning in 42ms. Found 4 JPA repository interfaces.
+2020-10-28 19:37:55 - Tomcat initialized with port(s): 8080 (http)
+2020-10-28 19:37:55 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-28 19:37:55 - Starting service [Tomcat]
+2020-10-28 19:37:55 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-28 19:37:55 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-28 19:37:55 - Initializing Spring embedded WebApplicationContext
+2020-10-28 19:37:55 - Root WebApplicationContext: initialization completed in 850 ms
+2020-10-28 19:37:55 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 19:37:55 - HikariPool-1 - Starting...
+2020-10-28 19:37:55 - HikariPool-1 - Start completed.
+2020-10-28 19:37:55 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-28 19:37:56 - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-28 19:37:56 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-28 19:37:56 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-28 19:37:56 - Adding welcome page: ServletContext resource [/index.html]
+2020-10-28 19:37:56 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-28 19:37:56 - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-28 19:37:56 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2020-10-28 19:37:56 - Triggering deferred initialization of Spring Data repositories…
+2020-10-28 19:37:56 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-28 19:37:56 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-28 19:37:56 - Spring Data repositories initialized!
+2020-10-28 19:37:56 - Started FlightReservationApplication in 2.117 seconds (JVM running for 2.61)
+2020-10-28 19:38:02 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 19:38:02 - Initializing Servlet 'dispatcherServlet'
+2020-10-28 19:38:02 - Completed initialization in 4 ms
+2020-10-28 19:38:02 - Inside showLogin()
+2020-10-28 19:38:07 - Inside login page + {email}
+2020-10-28 19:38:18 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.Date'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @org.springframework.format.annotation.DateTimeFormat java.util.Date] for value '123455'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [123455]]
+2020-10-28 19:38:35 - Inside showRegistrationPage()
+2020-10-28 19:39:04 - Application shutdown requested.
+2020-10-28 19:39:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-28 19:39:04 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-28 19:39:04 - HikariPool-1 - Shutdown initiated...
+2020-10-28 19:39:04 - HikariPool-1 - Shutdown completed.
